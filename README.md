@@ -1,6 +1,25 @@
 # MCON-357-Spring-2025
 Exercises for the MCON-357 course for the Spring Semester  2025
 
+# Git and GitHub Helpful tipa
+On MAC and Linux, you can use the following command to cache your GitHub credentials for a certain period of time. This way, you don't have to enter your username and password every time you push to GitHub.
+- Install git credential manager:
+```bash
+brew tap microsoft/git
+brew install --cask git-credential-manager-core
+```
+-verify installation
+```bash
+git-credential-manager-core --version
+
+- configure git to use the credential manager
+```bash
+git config --global credential.helper manager
+```
+When you do push it will prompt for the token or asks to sign in via browser. This will save the token in the keychain
+
+
+
 ## Exercise for Module2 - Introduction to Python
 
 ### Recursive Factorial Calculation**
