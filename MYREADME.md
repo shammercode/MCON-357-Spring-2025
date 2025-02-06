@@ -1,0 +1,1 @@
+This project is practice for preparing different GitHub functions
