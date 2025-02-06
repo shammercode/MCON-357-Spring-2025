@@ -1,7 +1,7 @@
 # MCON-357-Spring-2025
 Exercises for the MCON-357 course for the Spring Semester  2025
 
-# Git and GitHub Helpful tipa
+# Git and GitHub Helpful tips
 On MAC and Linux, you can use the following command to cache your GitHub credentials for a certain period of time. This way, you don't have to enter your username and password every time you push to GitHub.
 - Install git credential manager:
 ```bash
