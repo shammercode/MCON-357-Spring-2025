@@ -7,9 +7,13 @@ def factorial_recursive(number):
 
 def main():
     print("Factorial Computation Using Recursion")
-    number = int(input("Enter a non-negative integer: "))
+    number= -1;
     while number < 0:
-        number = int(input("Input was negative. Enter a non-negative integer: "))
+        try:
+            number = int(input("Enter a non-negative integer: "))
+        except ValueError:
+            print("Number is not an integer.")
+
     print(factorial_recursive(number))
 
 
